@@ -8,10 +8,18 @@ html, body {
     height: 100%;
 }
 
+/* background color for whole website */
+body{
+    background-color: rgb(16,16,16);
+}
+
 /* NAV BAR */
+#top-nav ul h1 a {
+    text-align: center;
+}
 
 #top-nav {
-    background-color:rgb(26,26,26);
+    background-color:rgb(16,16,16);
 }
 
 #top-nav ul {
@@ -39,3 +47,35 @@ main {
     max-width: 1080px;
     margin: 0 auto;
 }
+
+/* FOOTER */
+
+footer {
+    display: grid;
+    grid-template-columns: auto 1fr auto;
+    background-color: rgb(16,16,16);
+}
+#footer-nav ul li a {
+    display: block;
+    padding: 1em;
+    color: red;
+    transition: all 0.5s;
+}
+
+#socials ul li a{
+    display: block;
+    padding: 1em;
+    color: red;
+    transition: all 0.5s;
+    font-size: 20px;
+    
+}
+
+/* H1 */
+
+h1 {
+    text-align: center;
+    color: red;
+    background-color: rgb(16,16,16);
+}
+
