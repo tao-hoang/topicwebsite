@@ -54,7 +54,7 @@ main {
 footer {
     display: grid;
     grid-template-columns: auto 1fr auto;
-    background-color: rgb(16,16,16);
+    background-color: rgb(16, 16, 16);
 }
 #footer-nav ul li a {
     display: block;
@@ -69,31 +69,34 @@ footer {
     color: red;
     transition: all 0.5s;
     font-size: 20px;
-    
 }
 
-footer a:hover {
+footer #socials:hover {
     color:rgb(66, 66, 66)
 }
 
-footer #social ul {
+footer #socials {
+    padding: 10px 20px;
+    font-size: 20px;
+}
+
+footer #socials ul {
     display: flex;
     justify-content: center;
 }
 
-footer #social ul li {
+footer #socials ul li {
     list-style: none;
 }
 
-footer #social ul li a {
+footer #socials ul li a {
     display: flex;
     justify-content: center;
     align-items: center;
+    width: 30px;
+    height: 30px;
+    border-radius: 30px;
 }
-/* H1 */
 
-h1 {
-    color: red;
-    background-color: rgb(16,16,16);
-}
+
 
