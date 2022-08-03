@@ -26,7 +26,7 @@ body{
 /* NAV BAR */
 #top-nav ul main h1 a {
     text-align: center;
-    margin-left: 300px;
+    margin-left: 200px;
 }
 
 #top-nav {
@@ -86,6 +86,11 @@ footer #socials a:hover {
 }
 
 footer #socials {
+    position: fixed;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
     padding: 10px 20px;
     font-size: 20px;
     padding-left: 1800px;
@@ -105,9 +110,25 @@ h1{
 
 /* paragraphs */
 p{
+    
     line-height: 1.6em;
     color:white
     
+    
 }
 
-/* image */
+/* Pages */
+#about-me, #interests, #persons {
+    text-align: center;
+}
+
+/* Images */
+#interests img {  
+    max-width: 100%;  
+    height: auto;  
+    }  
+
+#persons img {  
+    max-width: 100%;  
+    height: auto;  
+    }  
