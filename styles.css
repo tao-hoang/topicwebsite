@@ -131,5 +131,9 @@ p{
 
 #persons img {  
     max-width: 100%;  
-    height: auto;  
+    height: auto;
     }  
+
+#persons p{
+    margin-bottom: 100px;
+}
